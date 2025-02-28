@@ -6,8 +6,13 @@
     "code-runner.runInTerminal": true,
     "code-runner.terminalRoot": "/",
     "code-runner.executorMap": {
+        
+        
         "python": " cd $dir && python $fileName",
 
+
+
+        "pip-requirements": " cd $dir && pip install --upgrade pip && pip install -r requirements.txt",
 
 
 
