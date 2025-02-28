@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "codeium.codeium",
+        "esbenp.prettier-vscode",
+        "fedricknishant.turbo-python-print",
+        "formulahendry.code-runner",
+        "foxundermoon.shell-format",
+        "lovebird.better-comments-enhanced",
+        "michaelcurrin.auto-commit-msg",
+        "ms-azuretools.vscode-docker",
+        "ms-python.autopep8",
+        "ms-python.debugpy",
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-vscode-remote.remote-wsl",
+        "steoates.autoimport"
+    ]
+}
