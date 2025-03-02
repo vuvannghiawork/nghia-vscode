@@ -1,6 +1,7 @@
 {
     "recommendations": [
         "codeium.codeium",
+        "dracula-theme.theme-dracula",
         "esbenp.prettier-vscode",
         "fedricknishant.turbo-python-print",
         "formulahendry.code-runner",
@@ -13,6 +14,7 @@
         "ms-python.python",
         "ms-python.vscode-pylance",
         "ms-vscode-remote.remote-wsl",
+        "pkief.material-icon-theme",
         "steoates.autoimport"
     ]
 }
