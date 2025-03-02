@@ -88,5 +88,7 @@
   },
   "[dockercompose]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "files.autoSave": "afterDelay",
+  "diffEditor.ignoreTrimWhitespace": false
 }
