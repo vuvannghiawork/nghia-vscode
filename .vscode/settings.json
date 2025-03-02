@@ -1,5 +1,4 @@
 {
-  "files.autoSave": "afterDelay",
   "editor.mouseWheelZoom": true,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "autopep8.args": ["--ignore=E501"],
@@ -8,8 +7,11 @@
   "code-runner.executorMap": {
     "python": " cd $dir && python $fileName",
 
-    // Cài đặt thư viện Python
+    // Cài đặt thư viện Python với file requirements.txt
     "pip-requirements": " cd $dir && pip install --upgrade pip && pip install -r requirements.txt",
+
+    // Lệnh docker
+    "dockercompose": " cd $dir && docker compose -f $fileName up -d ",
 
     "javascript": "node",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
@@ -74,10 +76,17 @@
   // Phải hỏi khi di chuyển folder
   // Tách các folder trong giao diện
   "explorer.compactFolders": false,
-  //   Cài đặt format cho JSON là prettier
+  // Cài đặt format cho JSON là prettier
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-//   Dracula
-  "workbench.colorTheme": "Dracula Theme"
+  // Dracula
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.iconTheme": "material-icon-theme",
+  "[dockerfile]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[dockercompose]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
