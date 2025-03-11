@@ -91,8 +91,8 @@
   },
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.startupEditor": "none",
-  "files.autoSave": "afterDelay",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
-  }
+  },
+  "files.autoSave": "afterDelay"
 }
