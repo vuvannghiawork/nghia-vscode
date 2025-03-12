@@ -28,6 +28,15 @@
       "italic": false
     },
     {
+      "tag": "#",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
       "tag": "*",
       "color": "#FF2D00",
       "strikethrough": false,
@@ -90,6 +99,8 @@
 
     // Lệnh docker
     "dockercompose": " cd $dir && docker compose -f $fileName up -d ",
+    
+    "shellscript": " bash",
 
     "javascript": "node",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
@@ -107,7 +118,6 @@
     "groovy": "groovy",
     "powershell": "powershell -ExecutionPolicy ByPass -File",
     "bat": "cmd /c",
-    "shellscript": "bash",
     "fsharp": "fsi",
     "csharp": "scriptcs",
     "vbscript": "cscript //Nologo",
