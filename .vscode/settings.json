@@ -209,8 +209,8 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.autoSave": "afterDelay",
   "remote.SSH.remotePlatform": {
     "SMR-server": "linux"
   },
+  "files.autoSave": "afterDelay",
 }
