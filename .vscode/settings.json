@@ -186,8 +186,10 @@
     "pkl": "cd $dir && pkl eval -f yaml $fileName -o $fileNameWithoutExt.yaml",
     "gleam": "gleam run -m $fileNameWithoutExt"
   },
-  //
+  // Không hỏi khi xóa
   "explorer.confirmDelete": false,
+   // Cho phép Paste nhiều dòng
+   "terminal.integrated.enableMultiLinePasteWarning": "never",
   // Phải hỏi khi di chuyển folder
   // Tách các folder trong giao diện
   "explorer.compactFolders": false,
@@ -205,6 +207,7 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "diffEditor.ignoreTrimWhitespace": false,
+    // Không bật cửa sổ VSCode
   "workbench.startupEditor": "none",
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -212,5 +215,9 @@
   "remote.SSH.remotePlatform": {
     "SMR-server": "linux"
   },
+    // Tự động lưu File
   "files.autoSave": "afterDelay",
+  "workbench.editorAssociations": {
+    "*.sql": "default"
+  },
 }
