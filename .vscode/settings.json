@@ -119,12 +119,11 @@
     }
   ],
   "code-runner.executorMap": {
+    // Chạy python
     "python": " cd $dir && python $fileName",
-
     // Cài đặt thư viện Python với file requirements.txt
     "pip-requirements": " cd $dir && pip install --upgrade pip && pip install -r requirements.txt",
-
-    // Lệnh docker
+    // Lệnh docker compose
     "dockercompose": " cd $dir && docker compose -f $fileName up -d ",
     
     "shellscript": " bash",
