@@ -219,4 +219,6 @@
   "workbench.editorAssociations": {
     "*.sql": "default"
   },
+  // Xóa limmit so sánh khác nhau git
+  "diffEditor.maxComputationTime": 0,
 }
