@@ -221,4 +221,7 @@
   },
   // Xóa limmit so sánh khác nhau git
   "diffEditor.maxComputationTime": 0,
+  "cline.vsCodeLmModelSelector": {
+    
+  },
 }
