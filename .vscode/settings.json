@@ -6,6 +6,9 @@
   "code-runner.terminalRoot": "/",
 
 
+
+  "editor.stickyScroll.enabled": true,
+  "editor.stickyScroll.maxLineCount": 10,
   
   "better-comments.tags": [
     
