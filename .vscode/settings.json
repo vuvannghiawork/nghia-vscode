@@ -215,7 +215,9 @@
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
   "remote.SSH.remotePlatform": {
-    "SMR-server": "linux"
+    "SMR-server": "linux",
+    "D2S_14.162.146.23": "linux",
+    "xFace_103.15.223.15": "linux"
   },
     // Tự động lưu File
   "files.autoSave": "afterDelay",
