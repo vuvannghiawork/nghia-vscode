@@ -130,6 +130,7 @@
     "dockercompose": " cd $dir && docker compose -f $fileName up -d ",
     
     "shellscript": " bash",
+    "json": "  cd $dir && yarn dev ",
 
     "javascript": "node",
     "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
